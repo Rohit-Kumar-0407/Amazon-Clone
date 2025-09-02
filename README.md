@@ -1,5 +1,5 @@
 # Amazon-Clone
-This is the Frontend Clone Of Amazon Website
-Created By Rohit Kumar
+<pre>This is the Frontend Clone Of Amazon Website
+Created By Rohit Kumar</pre>
 
-Credits Of Resources Used: 
+<pre>Credits Of Resources Used: </pre>
