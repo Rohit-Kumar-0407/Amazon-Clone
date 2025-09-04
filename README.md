@@ -1,4 +1,3 @@
-# Amazon-Clone
 <h1><b><u>Amazon Frontend Clone Project</b></u></h1>
 
 <pre>This is the Frontend Clone Of Amazon Website
