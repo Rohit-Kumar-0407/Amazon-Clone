@@ -209,7 +209,7 @@
 .catlog {
     /* border: 2px solid black; */
     height: 400px;
-    width: 360px;
+    width: 365px;
     background-color: white;
     margin-top: 25px;
     padding: 20px 0px 15px;
@@ -286,6 +286,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#back-to-top:hover {
+    background-color:#314358;
 }
 #back-message {
     color: white;
