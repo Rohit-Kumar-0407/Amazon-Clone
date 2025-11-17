@@ -174,7 +174,7 @@
 
 /* Hero Section */
 .hero-section {
-    background-image: url(../Images/main_image.jpg);
+    background-image: url(../Amazon-Clone/Images/main_image.jpg);
     background-size: cover;
     height: 400px;
     display: flex;
@@ -326,5 +326,9 @@ li {
     font-size: 0.85rem;
     padding: 20px 0px 10px
 }
-
+#disclaimer {
+    background-color: #131A22;
+    color: #DDDDDD;
+    text-align: center;
+}
 
