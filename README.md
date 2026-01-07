@@ -17,7 +17,7 @@ This is the Frontend Clone of one of the famous e-commerce platform, Amazon.
    - Extract the zip file on local system
    - Click on index.html to open it on local browser.
 2) Direct Methods:
-   - Click on "" Github Pages deployed link.
+   - Click on "https://rohit-kumar-0407.github.io/Amazon-Clone/" Github Pages deployed link.
    - Click on "more details" and click on "visit unsafe page".
 ## Project Screenshots
 1) Main Page:<br>
