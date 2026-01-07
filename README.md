@@ -21,13 +21,13 @@ This is the Frontend Clone of one of the famous e-commerce platform, Amazon.
    - Click on "more details" and click on "visit unsafe page".
 ## Project Screenshots
 1) Main Page:
-[Main Page]{https://media.licdn.com/dms/image/v2/D4D2DAQHEsjCzsIw1Xw/profile-treasury-image-shrink_800_800/B4DZkXMIqUH4AY-/0/1757030684446?e=1768377600&v=beta&t=T-xT-7PJPM0EPVVaKd_RXL5b8cWoVuJNFXMZbrv13ao}
+[Main Page](https://media.licdn.com/dms/image/v2/D4D2DAQHEsjCzsIw1Xw/profile-treasury-image-shrink_800_800/B4DZkXMIqUH4AY-/0/1757030684446?e=1768377600&v=beta&t=T-xT-7PJPM0EPVVaKd_RXL5b8cWoVuJNFXMZbrv13ao)
 <br>
 2) Content Page:
-[Content Page]{https://media.licdn.com/dms/image/v2/D4D2DAQE3ZDDuY5mCkA/profile-treasury-image-shrink_800_800/B4DZkXMlr7H0Ac-/0/1757030802422?e=1768377600&v=beta&t=i4H51FnCCmP1XfNIJlFRkWmweFTrFf8Isj7W04NmFh0}
+[Content Page](https://media.licdn.com/dms/image/v2/D4D2DAQE3ZDDuY5mCkA/profile-treasury-image-shrink_800_800/B4DZkXMlr7H0Ac-/0/1757030802422?e=1768377600&v=beta&t=i4H51FnCCmP1XfNIJlFRkWmweFTrFf8Isj7W04NmFh0)
 <br>
 3) Copyright Page:
-[Copyright Page]{https://media.licdn.com/dms/image/v2/D4D2DAQGwk5YRy8_cOw/profile-treasury-image-shrink_800_800/B4DZkXMrQgH4AY-/0/1757030824092?e=1768377600&v=beta&t=PKBnQQxNquEPx2qvWMbfTwOKRcOs1ZyXsRStNxBBCeE}
+[Copyright Page](https://media.licdn.com/dms/image/v2/D4D2DAQGwk5YRy8_cOw/profile-treasury-image-shrink_800_800/B4DZkXMrQgH4AY-/0/1757030824092?e=1768377600&v=beta&t=PKBnQQxNquEPx2qvWMbfTwOKRcOs1ZyXsRStNxBBCeE)
 
 
 ## Project Scope:
