@@ -21,7 +21,6 @@ This is the Frontend Clone of one of the famous e-commerce platform, Amazon.
    - Click on "more details" and click on "visit unsafe page".
 ## Project Screenshots
 1) Main Page:<br>
-<br>
 ![Main-Page](https://media.licdn.com/dms/image/v2/D4D2DAQHEsjCzsIw1Xw/profile-treasury-image-shrink_800_800/B4DZkXMIqUH4AY-/0/1757030684446?e=1768377600&v=beta&t=T-xT-7PJPM0EPVVaKd_RXL5b8cWoVuJNFXMZbrv13ao)
 <br>
 
