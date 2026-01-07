@@ -34,5 +34,6 @@ This is the Frontend Clone of one of the famous e-commerce platform, Amazon.
 
 ## Project Scope:
 Even though it took deep knowledge of HTML and CSS for building, it can be elevated with the help of JavaScript and other languages for adding functions and making it look more crystal clear and dynamic.
-
-### For Project Demo, visit my LinkedIn Page. Ready to accept any suggestions, feedback and insights and as much as possible!
+<hr>
+For Project Demo, visit my LinkedIn Page. 
+Ready to accept any suggestions, feedback and insights and as much as possible!
