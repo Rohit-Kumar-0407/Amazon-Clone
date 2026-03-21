@@ -21,15 +21,15 @@ This is the Frontend Clone of one of the famous e-commerce platform, Amazon.
    - Click on "more details" and click on "visit unsafe page".
 ## Project Screenshots
 1) Main Page:<br>
-![Main-Page]()
+![Main-Page](./imgs/main_page.jfif)
 <br>
 
 2) Content Page:<br>
-![Content-Page]()
+![Content-Page](./imgs/content_page.jfif)
 <br>
 
 3) Copyright Page:<br>
-![Copyright-Page]()
+![Copyright-Page](./imgs/copyright_page.jfif)
 
 
 ## Project Scope:
