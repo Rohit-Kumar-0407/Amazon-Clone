@@ -336,5 +336,355 @@ li {
     background-color: #131A22;
     color: #DDDDDD;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
+/* --- Media Queries for Responsive Design --- */
+
+/* Tablet Devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        padding-bottom: 0.5rem;
+    }
+    #nav-search {
+        width: 80%;
+        order: 3;
+        margin: 0.5rem auto;
+    }
+    #search-bar {
+        width: calc(100% - 6rem);
+    }
+    .shop-section {
+        flex-wrap: wrap;
+    }
+    .catlog {
+        width: 45%;
+        margin: 1rem 2%;
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+    .catalog-2 {
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+    .image-container {
+        flex-wrap: wrap;
+    }
+    .image-container img {
+        margin: 0.5rem;
+        width: calc(25% - 1rem); 
+        height: auto;
+    }
+    #main-panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0.5rem;
+    }
+    .hero-section {
+        height: 20rem;
+    }
+    #contact-support {
+        flex-wrap: wrap;
+    }
+    .cs {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+    .multi-image-catlog-half, .multi-image-catlog-half-2 {
+        justify-content: space-evenly;
+        margin-left: 0;
+        width: 100%;
+    }
+    .catlog-image img {
+        max-width: 100%;
+        height: auto;
+    }
+    .catlog-hyp, .catlog-hyp-2, .catlog-hyp-3 {
+        margin: 1rem 0;
+        text-align: center;
+        display: block;
+    }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    /* Base Body Updates */
+    body {
+        background-color: #eaeded; /* Native Amazon App grey background */
+        overflow-x: hidden;
+    }
+    
+    /* Hide some elements */
+    #nav-language, #nav-orders, #message, #search-drop {
+        display: none !important;
+    }
+    
+    /* Navbar styling */
+    .navbar {
+        height: auto;
+        padding: 0;
+        background-color: #232F3E;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    #logo {
+        order: 1;
+        margin-left: 0.5rem;
+        border: none;
+    }
+    #nav-logo {
+        height: 2.5rem;
+        width: auto;
+        max-width: 6rem;
+        object-fit: contain;
+    }
+    
+    #nav-accounts {
+        order: 2;
+        margin-left: auto;
+        padding-top: 0;
+        margin-top: 0.25rem;
+        border: none;
+    }
+    #accounts-menu {
+        font-weight: 500;
+        font-size: 0.95rem;
+    }
+    #accounts-menu i { margin-left: 0.25rem; }
+    
+    #nav-cart {
+        order: 3;
+        margin-right: 0.5rem;
+        border: none;
+    }
+    
+    #nav-search {
+        order: 4;
+        width: 100%;
+        margin: 0.25rem 0.5rem 0.5rem 0.5rem;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    #search-bar {
+        width: calc(100% - 3rem);
+        border-radius: 0.25rem 0 0 0.25rem;
+        font-size: 1rem;
+        padding: 0 0.5rem;
+        height: 2.5rem;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+    }
+    #search-bar:focus {
+        box-shadow: 0 0 0 2px #f90 inset;
+    }
+    #search-icon {
+        width: 3rem;
+        border-radius: 0 0.25rem 0.25rem 0;
+        box-sizing: border-box;
+    }
+    
+    #nav-address {
+        display: flex;
+        order: 5;
+        width: 100%;
+        background-color: #37475A;
+        height: 2.5rem;
+        margin-top: 0;
+        justify-content: flex-start;
+        padding: 0 1rem;
+        border: none;
+    }
+    #nav-address:hover { border: none; margin-top: 0; }
+    
+    #nav-addresstext {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    #text1 p, #Country p {
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    #text1 p::after { content: " "; }
+    
+    /* Main Panel Scrollable */
+    #main-panel {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        padding: 0 0.5rem;
+        height: auto;
+        scrollbar-width: none;
+        align-items: center;
+        -webkit-overflow-scrolling: touch;
+    }
+    #main-panel::-webkit-scrollbar {
+        display: none;
+    }
+    .panel {
+        display: inline-block;
+        font-size: 0.9rem;
+        padding: 0.5rem 0.75rem;
+        margin: 0;
+    }
+    
+    /* Hero Image */
+    .hero-section {
+        height: 18rem;
+        background-position: center top;
+        align-items: flex-end;
+    }
+    .redirect-message {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        background-color: #f5f6f6;
+    }
+    
+    /* Shopping Sections */
+    .shop-section {
+        flex-direction: column;
+        background-color: transparent; /* Use page background */
+        padding: 0;
+    }
+    .catlog, .catalog-2 {
+        width: 100%;
+        margin: 0 0 0.35rem 0;
+        padding: 1rem;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    .catlog-text, .catlog-text-2 {
+        padding-left: 0;
+        font-size: 0.95rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Horizontal Scroll for Bestsellers */
+    .catalog-2 .image-container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        justify-content: flex-start;
+        padding-bottom: 0.5rem;
+    }
+    .catalog-2 .image-container::-webkit-scrollbar {
+        display: none;
+    }
+    .catalog-2 .image-container img {
+        width: 35%;
+        flex: 0 0 auto;
+        margin: 0 1rem 0 0;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    /* 2x2 grids */
+    .multi-image-catlog-half {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .image-1, .image-2 {
+        width: 48%;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    .image-1 img, .image-2 img {
+        width: 100%;
+        height: auto;
+    }
+    .caption {
+        font-size: 0.75rem;
+        display: block;
+        margin-top: 0.25rem;
+    }
+    
+    /* Multi-image 3 items row fix */
+    .multi-image-catlog-half-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+        margin-left: 0;
+    }
+    .multi-image-catlog-half-2 .image-1,
+    .multi-image-catlog-half-2 .image-2,
+    .multi-image-catlog-half-2 .image-3 {
+        width: 31%;
+        margin: 0;
+    }
+    .multi-image-catlog-half-2:first-of-type .image-1 {
+        width: 100%;
+    }
+    .multi-image-catlog-half-2 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .catlog-image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .catlog-hyp, .catlog-hyp-2, .catlog-hyp-3 {
+        margin: 0.5rem 0 0 0;
+        text-align: left;
+    }
+    
+    /* Footers */
+    #back-to-top {
+        height: 3rem;
+        background-color: #37475A;
+    }
+    #contact-support {
+        flex-direction: column;
+        padding: 1.5rem 1rem 0 1rem;
+        background-color: #232F3E;
+    }
+    .cs {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+    .heading {
+        margin: 0 0 0.5rem 0;
+    }
+    .content ul {
+        padding-left: 0;
+        list-style: none;
+    }
+    .content ul li {
+        margin-bottom: 1rem;
+        font-size: 0.95rem;
+    }
+    #copyright {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+    .copyright-message {
+        padding: 0.25rem 0;
+    }
+}
+
+/* Small Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .catalog-2 .image-container img {
+        width: 45%;
+    }
+    .hero-section { height: 12rem; }
+}
